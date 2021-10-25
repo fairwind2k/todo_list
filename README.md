@@ -1,4 +1,6 @@
 
+[fairwind2k.github.io/todo_list](https://fairwind2k.github.io/todo_list/)
+
 This is my solution of exercise "Shopping list" on Andrei Neagoie's The Complete Web Developer in 2021: Zero to Mastery Udemy course.
 
 Tasks are:
