@@ -12,7 +12,7 @@ function createListElement() {
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
 	var buttonDelete = document.createElement("button");
-	buttonDelete.className = 'delete';
+	buttonDelete.className = 'delBtn';
 	buttonDelete.innerHTML = "Delete";
 	li.appendChild(buttonDelete);
 	buttonDelete.onclick = function() {
