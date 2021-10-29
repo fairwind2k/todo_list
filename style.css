@@ -20,13 +20,21 @@ h1, p, body {
 
 p {
   font-family: "Dank Mono", ui-monospace, monospace;
+  text-align: center;
+/*  grid-row: 2;*/
 }
 
 /*html {
   block-size: 100%;
   inline-size: 100%;
 }*/
+/*input {
+  grid-row: 3;
+}
 
+ul {
+  grid-row: 4;
+}*/
 .done {
   text-decoration: line-through;
 }
@@ -37,6 +45,12 @@ p {
 }
 
 #enter {
-  margin-top: 0.3em;
-  float: right;
+  margin-top: 1em;
+  width: 50%;
+  display: grid;
+  place-self: center;
+  height: 25px;
+
+/*  grid-column-start: 2;
+  grid-row: 3;*/
 }
